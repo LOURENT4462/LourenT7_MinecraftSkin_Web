@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LourenT7 Minecraft Skin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>LourenT7 Minecraft Skin</h1>
+        </header>
+
+        <main>
+            <section class="skin-preview">
+                <img src="img/skin_preview.png" alt="LourenT7 Close-up">
+            </section>
+
+            <section class="info">
+                <p>Hey! Welcome to LourenT7's official site. Download the skin below!</p>
+                <a href="img/skin_texture.png" download="skin_texture"><button>Download Skin</button></a>
+                <button onclick="copySkinUrl()">Copy Skin URL</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 LourenT7</p>
+        </footer>
+    </div>
+
+    <script>
+        function copySkinUrl() {
+            const url = window.location.href + 'https://minesk.in/d6a15227f698437694606982cf073861';
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Skin URL copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+
+</html>
