@@ -7,3 +7,6 @@
 <div align="center">
   <img src="img/web_preview.png"/>
 </div>
+
+<h2 align="center">Visit Now</h2>
+<div align="center">https://lourent4462.github.io/lourent7-skin-website/</div>
